@@ -1,11 +1,12 @@
 {
-  "name": "alucard-first-rnativ",
+  "name": "alucard-react-native-first-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple react native app for training",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@types/react-native": "0.63.35",
+    "bootstrap": "4.5.3",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-native-web": "0.14.8",

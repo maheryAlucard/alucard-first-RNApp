@@ -1,6 +1,7 @@
 .hmaincontainer {
   background-color: #1196d4;
+  color: white;
   width: 100%;
   display: flex;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
 }
