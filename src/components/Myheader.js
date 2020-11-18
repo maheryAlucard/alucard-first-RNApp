@@ -3,15 +3,19 @@ import { View, Text } from "react-native";
 
 import "../assets/css/header.css";
 var textStyle = {
-  color: "#fff"
+  color: "#fff",
+  paddingLeft: 10
+};
+var hdrStyle = {
+  backgroundColor: "steelblue",
+  flex: 1,
+  padding: 6
 };
 const MyHeader = () => {
   return (
-    <div className="hmaincontainer">
-      <View>
-        <Text style={textStyle}>My First Header</Text>
-      </View>
-    </div>
+    <View style={hdrStyle}>
+      <Text style={textStyle}>My First Header</Text>
+    </View>
   );
 };
 
